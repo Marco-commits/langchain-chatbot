@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: chatbot
+    build: .
+    ports:
+      - "4000:80"
+    command: bash -c "tail -f /dev/null"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - .:/usr/src/app
