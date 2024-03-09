@@ -4,3 +4,4 @@ chromadb # Vector storage
 openai # For embeddings
 tiktoken  # For embeddings
 unstructured==0.5.6
+langchain-openai
