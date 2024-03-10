@@ -1,7 +1,6 @@
-langchain
-unstructured # Document loading
-chromadb # Vector storage
-openai # For embeddings
-tiktoken  # For embeddings
-unstructured==0.5.6
-langchain-openai
+langchain 
+langchain-community 
+langchainhub 
+langchain-openai 
+chromadb 
+bs4
